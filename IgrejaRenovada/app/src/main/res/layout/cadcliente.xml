@@ -1,0 +1,80 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="textPersonName"
+        android:hint="Nome"
+        />
+
+    <EditText
+        android:id="@+id/edTelefone"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginTop="30dp"
+        android:hint="Telefone"/>
+
+    <EditText
+        android:id="@+id/edCelular"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginTop="60dp"
+        android:hint="Celular"/>
+
+    <EditText
+        android:id="@+id/edEndereco"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginTop="90dp"
+        android:hint="Rua"/>
+    
+    <EditText
+        android:id="@+id/edNumero"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginTop="120dp"
+        android:hint="Nº"/>
+
+    <EditText
+        android:id="@+id/edCampos"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginTop="150dp"
+        android:hint="Campos"
+        />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginTop="180dp"
+        android:hint="Pastor:"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="35dp"
+
+
+        />
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
