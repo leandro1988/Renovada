@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/edtnome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Nome"
+                android:singleLine="true"/>
+
+
+            <EditText
+                android:id="@+id/edttelefone"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Telefone"
+                android:inputType="number"
+                android:singleLine="true"
+                />
+
+            <EditText
+                android:id="@+id/edtcelular"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Celular"
+                android:inputType="number"
+                android:singleLine="true"
+
+                />
+
+            <EditText
+                android:id="@+id/edtendereco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Endreço"
+                android:singleLine="true"
+
+                />
+
+            <EditText
+                android:id="@+id/edtbairro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Bairro"
+
+                android:singleLine="true"/>
+
+            <EditText
+                android:id="@+id/edtnascimento"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Data Nascimento"
+                android:inputType="date"
+                android:singleLine="true"/>
+
+            <EditText
+                android:id="@+id/edtpastor"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Pastor do Campo"
+                android:singleLine="true"/>
+
+            <EditText
+                android:id="@+id/edtcampo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Igreja do Campo"
+                android:singleLine="true"/>
+
+            <EditText
+                android:id="@+id/edtdata"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Data"
+                android:inputType="date"
+                android:singleLine="true"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

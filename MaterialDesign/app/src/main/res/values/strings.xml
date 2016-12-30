@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Igreja Renovada</string>
+    <string name="action_Salvar">Salvar</string>
+    <string name="action_Deletar">Excluir</string>
+    <string name="action_Pesquisa">Search</string>
+    <string name="action_Sobre">Sobre</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_noticias">Noticias</string>
+    <string name="nav_item_friends">Membros</string>
+    <string name="nav_item_notifications">Radio</string>
+    <string name="nav_item_close">Sair</string>
+
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_noticias</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+        <item>@string/nav_item_close</item>
+    </string-array>
+
+    <string name="title_radio">Rádio</string>
+    <string name="title_membros">Membros</string>
+    <string name="title_noticias">Noticias</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
